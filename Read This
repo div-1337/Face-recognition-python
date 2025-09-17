@@ -1,0 +1,10 @@
+
+*** FOR FRONT END ***
+use generate_dataset function in whatever button you create to execute "add a new student", and use Train_Classifier function to save the facedata into classifier.xml
+
+
+*** FOR AVI ***
+fix the id = 1 in generate_dataset function (each time generate dataset is used, if it's a new student, a new id should be generated)
+
+
+
