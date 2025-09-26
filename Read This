@@ -1,10 +1,17 @@
-
-*** FOR FRONT END ***
-use generate_dataset function in whatever button you create to execute "add a new student", and use Train_Classifier function to save the facedata into classifier.xml
-
-
-*** FOR AVI ***
-fix the id = 1 in generate_dataset function (each time generate dataset is used, if it's a new student, a new id should be generated)
+DASHBOARD me add a student ka option daalna hai, jispe click karte hi wo ek chotta pop up sa khole jisme Student Name, Roll Number, Address puchega, fir uske baad wo student ka face capture karega(Usme mene ye code add krdia hai
+ki agar face already detected hoga to band hojayega frames capture hona, usme ye add krdena ki front-end screen pe aajaye Student's Face already exists with name {name}
 
 
 
+*** For Avi and Krishna ***
+
+variable names:
+stName
+stRollNo
+stAddress
+
+
+for Krishna:
+functions banaa le
+def SaveDataToSQL(): jisme id detect hote hi wo data seedha MySQL me save hojaye, id pe AUTO_INCREMENT on rkhna /// def GetDataFromSQL(id): jisme data aa jaye particular id ka jo ki face detection detect karega
+ye command bnale jis se data seedha SQL me save hojaye, variable names ooper mentioned hain
